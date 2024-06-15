@@ -1,8 +1,49 @@
 body{
 
     display:flex;
-    justify-content: center;
-    background-color: black;
-    color:red;
+    flex-direction:column;
+    background-color: rgb(0, 0, 0);
+    height:97.9vh;
+    justify-content: space-between;
 
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    /*background-color: purple;*/
+    height:22%;
+    width:100%;
+}
+
+#titlePage{
+    font-size: 45pt;
+    color:rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px rgb(255, 0, 0);
+    /*background-color: green;*/
+}
+
+#contentCenter{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    /*background-color: orange;*/
+    width:100%;
+    height:77%;
+}
+
+#OnlinePeoples{
+    color:white;
+    border:3px solid red;
+    width:23%;
+    height:94.5%;
+    /*background-color: green;*/
+}
+
+#RealTimeChatBox{
+    color: white;
+    border:3px solid red;
+    width:73%;
+    height:94.5%;
+    /*background-color:blueviolet;*/
 }
