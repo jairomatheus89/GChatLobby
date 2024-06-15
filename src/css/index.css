@@ -1,0 +1,14 @@
+body{
+    font-size:40pt;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:red;
+    height:97vh;
+}
+
+p{
+    font-size:20pt;
+}
