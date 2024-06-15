@@ -1,0 +1,21 @@
+{
+  "name": "gchatlobby",
+  "version": "1.0.0",
+  "description": "testando se o node funciona",
+  "main": "index.js",
+  "scripts": {
+    "test": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jairomatheus89/GChatLobby.git"
+  },
+  "keywords": [
+    "fuckyou"
+  ],
+  "author": "jairo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
